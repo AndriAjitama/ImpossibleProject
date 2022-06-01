@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import AddImage1 from "../../assets/Products/bukubestseller.jpg";
 import AddImage2 from "../../assets/Products/bukubestseller2.png";
 import AddImage3 from "../../assets/Products/bukubestseller3.jpg";
@@ -17,13 +16,15 @@ class Services extends Component {
         <div id="services" className="w-full">
           <div className="py-4 bg-[#0b093b]">
             <div className="w-full max-w[1220px] px-8 ">
-              <Slider/>
+              <Slider />
             </div>
           </div>
           <div className="py-16 bg-[#f5f5f5]">
             <div className="w-full max-w[1220px] px-8 mb-20 ">
               <div className="ml-[75px]">
-                <h1 className="text-4xl font-extrabold pb-3 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-black">Kategori Buku</h1>
+                <h1 className="text-4xl font-extrabold pb-3 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-black">
+                  Kategori Buku
+                </h1>
                 <p className="text-sm">
                   Terdapat berbagai macam kategori buku yang tersedia
                   <br />
@@ -77,7 +78,7 @@ class Services extends Component {
                       JavaScript dengan framework ReactJS
                     </p>
                     <div className="max-w-[150px] m-36">
-                      <Button title="Beli" action={() => alert("clicked")}/>
+                      <Button title="Beli" action={() => alert("clicked")} />
                     </div>
                   </div>
                   <div className="w-1/2 absolute top-[-70px] right-0">

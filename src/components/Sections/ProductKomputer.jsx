@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Button from "../Button/Button";
 
-class Product extends Component {
+class ProductKomputer extends Component {
   buku = [
     {
       id: 1,
@@ -86,10 +86,9 @@ class Product extends Component {
             </div>
           );
         })}
-       
       </div>
     );
   }
 }
 
-export default Product;
+export default ProductKomputer;

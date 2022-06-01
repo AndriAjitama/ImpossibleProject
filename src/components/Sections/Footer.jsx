@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
 import LogoImg from "../../assets/Logo/ImposibleProject.png";
-
+import { CgChevronDoubleUpR } from "react-icons/cg";
 class Footer extends Component {
   state = {};
   render() {
@@ -12,8 +12,8 @@ class Footer extends Component {
     return (
       <div>
         <div className="bg-[#0b093b]">
-          <div className="w-full max-w-[1220px] m-auto ">
-            <div className="py-6 flex justify-between items-center">
+          <div className="w-full max-w-[1220px] m-auto">
+            <div className="py-4 flex justify-between items-center">
               <Link
                 className="flex justify-center items-center ease-in duration-300 cursor-pointer"
                 to="hero"
@@ -30,12 +30,12 @@ class Footer extends Component {
                 <span className="text-sm text-[#7620ff] "> Dewa Buku</span>
               </div>
               <Link
-                className="text-[#fff] text-sm ease-in duration-300 cursor-pointer"
+                className="ease-in-out duration-1000 cursor-pointer animate-bounce relative transition -delay-1000 text-white hover:text-gray-400 "
                 to="hero"
                 smooth={true}
                 offset={-80}
               >
-                Kembali Ke Atas
+                <CgChevronDoubleUpR className="h-14 w-10" />
               </Link>
             </div>
           </div>

@@ -12,7 +12,9 @@ class Contact extends Component {
         <div className="bg-[#f5f5f5]">
           <div className="w-full max-w[1220px] pl-32">
             <div className="pt-16 ml-8">
-              <h1 className="text-4xl font-extrabold text-gray-600">Contact Dewa Buku</h1>
+              <h1 className="text-4xl font-extrabold text-gray-600">
+                Contact Dewa Buku
+              </h1>
               <p className="text-sm">
                 Hubungi kami untuk menanyakan ketersediaan Buku
                 <br />
@@ -28,21 +30,21 @@ class Contact extends Component {
                     type="text"
                     id="fname"
                     name="fname"
-                    className="h-8 mb-8 text-xl font-extrabold w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070]"
+                    className="h-8 mb-8 text-lg font-light w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070]"
                   />
                   <label className="text-sm">Email:</label>
                   <input
                     type="text"
                     id="email"
                     name="email"
-                    className="h-8 mb-8 text-xl font-extrabold w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070]"
+                    className="h-8 mb-8 text-lg font-light w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070]"
                   />
                   <label className="text-sm">Subject:</label>
                   <input
                     type="text"
                     id="subject"
                     name="subject"
-                    className="h-8 mb-8 text-xl font-extrabold w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070]"
+                    className="h-8 mb-8 text-lg font-light w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070]"
                   />
                   <textarea
                     rows="4"
@@ -50,7 +52,7 @@ class Contact extends Component {
                     type="text"
                     id="message"
                     name="message"
-                    className="h-8 mb-8 text-xl font-extrabold w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070] min-h-[100px]"
+                    className="h-8 mb-8 text-lg font-light w-full bg-transparent border-0 outline-none shadow-none border-b-2 border-[#707070] min-h-[100px]"
                   />
                 </div>
                 <div className="max-w-[220px] mt-5">

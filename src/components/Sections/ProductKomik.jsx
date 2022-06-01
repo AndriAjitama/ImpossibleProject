@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Button from "../Button/Button";
 
-class Product3 extends Component {
+class ProductKomik extends Component {
   buku = [
     {
       id: 1,
@@ -13,7 +13,8 @@ class Product3 extends Component {
     {
       id: 2,
       image: "komik02",
-      title: "Plants VS Zombies - Tubuh Manusia : Kompetisi Vitalitas yang Ekstrem",
+      title:
+        "Plants VS Zombies - Tubuh Manusia : Kompetisi Vitalitas yang Ekstrem",
       desc: "Bonk Choy dkk menemukan selembar tiket masuk. Konon, asal bisa ke alamat yang ada di tiket itu, mereka pasti akan memenangkan pertandingan apa pun!? Waah, pas sekali! Sebentar lagi aka nada pertandingan olahraga...",
       price: "110000",
     },
@@ -86,10 +87,9 @@ class Product3 extends Component {
             </div>
           );
         })}
-       
       </div>
     );
   }
 }
 
-export default Product3;
+export default ProductKomik;
