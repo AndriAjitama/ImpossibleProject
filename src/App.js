@@ -5,7 +5,7 @@ import Login from './pages/Users/Login/Login';
 import React, { Component } from "react";
 import './App.css';
 import LoginAdmin from './pages/Admin/Login/LoginAdmin';
-import Dashboard from './pages/Admin/Login/Dashboard';
+import Dashboard from './pages/Admin/Dashboard/Dashboard';
 import ErrorPage from './pages/Users/ErrorPage/ErrorPage';
 import AkunUser from './pages/Users/Akun/AkunUser';
 import UserLandingPage from './screens/UserLandingPage';

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-scroll";
-import LogoImg from "../../assets/Logo/ImposibleProject.png";
+import LogoImg from "../../../assets/Logo/ImposibleProject.png";
 import { CgChevronDoubleUpR } from "react-icons/cg";
 class Footer extends Component {
   state = {};

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import AddImage2 from "../../assets/Products/bukubestseller.jpg";
-import Button from "../Button/Button";
+import AddImage2 from "../../../assets/Products/bukubestseller.jpg";
+import Button from "../../../components/Button/Button";
 import ProductKomputer from "./ProductKomputer";
 import ProductNovel from "./ProductNovel";
 import ProductKomik from "./ProductKomik";
@@ -17,7 +17,6 @@ class Products extends Component {
             
 
           </div> */}
-
           <div className="w-full max-w-[1320px] my-0 mx-auto py-0 px-[30px]">
             <div>
               <h1 className="font-extrabold text-5xl pb-3 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-black">

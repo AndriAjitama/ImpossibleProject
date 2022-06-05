@@ -1,12 +1,12 @@
 import React, { Component } from "react";
-import AddImage1 from "../../assets/Products/bukubestseller.jpg";
-import AddImage2 from "../../assets/Products/bukubestseller2.png";
-import AddImage3 from "../../assets/Products/bukubestseller3.jpg";
-import AddImage4 from "../../assets/Products/bukubestseller4.jpg";
-import imgBook from "../../assets/Products/icons/book.png";
-import ServicesCard from "../Molecules/ServiceCard";
-import Slider from "../Molecules/Slider";
-import Button from "../Button/Button";
+import AddImage1 from "../../../assets/Products/bukubestseller.jpg";
+import AddImage2 from "../../../assets/Products/bukubestseller2.png";
+import AddImage3 from "../../../assets/Products/bukubestseller3.jpg";
+import AddImage4 from "../../../assets/Products/bukubestseller4.jpg";
+import imgBook from "../../../assets/Products/icons/book.png";
+import ServicesCard from "../../../components/Molecules/ServiceCard";
+import Slider from "../../../components/Molecules/Slider";
+import Button from "../../../components/Button/Button";
 
 class Services extends Component {
   state = {};

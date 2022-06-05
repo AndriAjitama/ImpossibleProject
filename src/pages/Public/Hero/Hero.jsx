@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import HeaderImage from "../../assets/Products/coverbuku.jpg";
-import QuotesIcon from "../../assets/SVG/Quotes";
-import Dots from "../../assets/SVG/Dots";
-import Button from "../Button/Button";
+import HeaderImage from "../../../assets/Products/coverbuku.jpg";
+import QuotesIcon from "../../../assets/SVG/Quotes";
+import Dots from "../../../assets/SVG/Dots";
+import Button from "../../../components/Button/Button";
 import { Link } from "react-scroll/modules";
 
 class Hero extends Component {

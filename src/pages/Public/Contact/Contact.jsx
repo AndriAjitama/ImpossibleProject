@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import ContactImg1 from "../../assets/Products/komputer/komputer02.jpg";
-import ContactImg2 from "../../assets/Products/komik/komik01.jpg";
-import ContactImg3 from "../../assets/Products/bukubestseller.jpg";
-import Button from "../Button/Button";
+import ContactImg1 from "../../../assets/Products/komputer/komputer02.jpg";
+import ContactImg2 from "../../../assets/Products/komik/komik01.jpg";
+import ContactImg3 from "../../../assets/Products/bukubestseller.jpg";
+import Button from "../../../components/Button/Button";
 
 class Contact extends Component {
   state = {};

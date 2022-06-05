@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import Contact from "../components/Sections/Contact";
-import Footer from "../components/Sections/Footer";
-import Header from "../components/Sections/Header";
-import Hero from "../components/Sections/Hero";
-import Products from "../components/Sections/Products";
-import Services from "../components/Sections/Services";
+import Contact from "../pages/Public/Contact/Contact";
+import Footer from "../pages/Public/Footer/Footer";
+import Header from "../pages/Public/Header/Header";
+import Hero from "../pages/Public/Hero/Hero";
+import Products from "../pages/Public/Product/Products";
+import Services from "../pages/Public/Services/Services";
 
 class PublicLandingPage extends Component {
   state = {};

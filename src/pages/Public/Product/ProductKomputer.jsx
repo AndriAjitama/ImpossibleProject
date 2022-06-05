@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Button from "../Button/Button";
+import Button from "../../../components/Button/Button";
 
 class ProductKomputer extends Component {
   buku = [
@@ -64,7 +64,7 @@ class ProductKomputer extends Component {
                 >
                   <img
                     className="w-full h-[350px] mp-5 mb-3 rounded-2xl hover:opacity-50 object-contain bg-slate-400"
-                    src={require("../../assets/Products/komputer/" +
+                    src={require("../../../assets/Products/komputer/" +
                       dataBuku.image +
                       ".jpg")}
                     alt=""

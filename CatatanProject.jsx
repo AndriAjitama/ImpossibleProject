@@ -16,7 +16,7 @@
 // Menggunakan fullstate atau class pada semua file/component
 // Menggunakan extention jsx pada semua file component
 // Menggunakan props pada component yang berulang seperti card buku
-// Menggunakan mapping untuk data bukunya dan ada bagian yang menggunakan data secara inline untuk belajar lebih mudah mana
+// Menggunakan mapping untuk data bukunya
 // Semua menggunakan styling dari tailwind
 // -pada beberapa section sudah menggunakan Transitions & Animation supaya lebih menarik
 // -project ini belum interaktif pada semua media/platform
@@ -28,7 +28,7 @@
 //ALGORITMA
 //saya ingin membuat landing pages sederhana dengan framework/lib ReactJs dengan styling menggunakan TailwindCSS
 //dengan materi yang sudah disampaikan pemateri
-//menggunakan fullstate bukan stateles/const/func., dengan tipe jsx bukan js dll
+//menggunakan fullstate bukan stateles/const/func., dengan tipe jsx bukan js
 //dengan codingan hasil sendiri agar lebih memahami tentang codingan yang kita buat
 // yang terdapat beberapa section yaitu :
 // Header/NavBar
@@ -37,3 +37,18 @@
 // Product/produk yang dijual
 // Contact/untuk menghubungi toko buku seperti bertanya stock ready tidak karena belum ada detail product
 // Footer
+
+
+
+//Routing
+//Menggunakan React-Router-Dom untuk perpindahan antar Role
+//Ada 3 role -Untuk pengunjung public
+         //  -Untuk user setelah memiliki akun
+         //  -Untuk admin
+//untuk akun user dan admin masih menggunakan screenshoot dari google karena belum tau bagaimana buatnya
+//untuk setiap akses login sudah dibuatkan
+//untuk login user bisa dengan cara klik button login di landing page public, lalu bisa register lalu login
+//perbedaan anatara public dan user dari headernya yang berubah
+//untuk login admin dengan cara http://localhost:3000/admin lalu masuk (dashboard menggunakan picture)
+//untuk struktur folder belum dirapihkan karena saya kira landing pages ini tidak akan di kembangkan lagi
+//yang terpenting untuk routingnya sudah berjalan terlebih dahulu

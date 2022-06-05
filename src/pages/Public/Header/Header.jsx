@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link as Links } from "react-router-dom";
 import { Link } from "react-scroll/modules";
-import Search from "../Button/Search";
+import Search from "../../../components/Button/Search";
 
 class Header extends Component {
   state = {};
@@ -10,7 +10,7 @@ class Header extends Component {
       <div className="flex justify-between p-3 px-10 bg-gray-800 place-items-center sticky top-0 z-50 max-w-screen-2xl">
         <div className="place-items-center flex w-1/2">
           <img
-            src={require("../../assets/Logo/ImposibleProject.png")}
+            src={require("../../../assets/Logo/ImposibleProject.png")}
             alt=""
             style={{ height: "50px", width: "50px" }}
             className="flex"
